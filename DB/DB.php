@@ -5,7 +5,7 @@ class DB
     private string $host = 'localhost';
     private string $db = 'exo_204';
     private string $user = 'root';
-    private string $password = 'DEV';
+    private string $password = 'dev';
     private static ?PDO $dbInstance = null;
 
     /**
